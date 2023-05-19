@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 90px;
+    letter-spacing: 45px;
+    text-align: center;
+    position: relative;
+    left: 25px;
+    bottom: -50px;
+}
+
+.container {
+    background: black;
+    display: inline-block;
+    border: 5px solid black; 
+  }
+  
+  .grid {
+    display: grid;
+    grid-gap: 5px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .cell {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    background: white;
+  }
+
+  button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: rgb(26, 75, 50);
+    color: white;
+  }
