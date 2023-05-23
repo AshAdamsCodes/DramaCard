@@ -2,44 +2,52 @@
 
 *{
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body{
     text-align: center;
+    background-color: #F3DF5A;
 }
 
 h1{
-    font-size: 90px;
-    letter-spacing: 45px;
-    text-align: center;
-    position: relative;
-    left: 25px;
-    bottom: -50px;
+  display: grid;
+  justify-content: end;
+  align-content: end;
 }
 
 .container {
-    background: black;
-    display: inline-block;
-    border: 5px solid black; 
+    background: #F3DF5A;
+    display: grid;
+    border: 5px solid #F3DF5A; 
+    text-align: center;
   }
   
   .grid {
     display: grid;
+    justify-content: center;
     grid-gap: 5px;
-    background-color: #2196F3;
     padding: 10px;
-    grid-template-columns: repeat(16 , 100px);
-    grid-template-rows: repeat(16, 100px);
+    grid-template-columns: repeat(5 , 19%);
+    grid-template-rows: repeat(6, 200px);
+
   }
 
   .cell {
     justify-content: center;
     align-items: center;
-    display: flex;
-    font-family: Arial;
-    font-size: 3rem;
+    display: grid;
+    
+    font-size: 2rem;
     font-weight: bold;
     background: white;
+    border: purple solid 5px; 
+  }
+
+  .letter{
+    font-size: 10rem;
+    justify-content: center;
+    align-content: center;
   }
 
   button{
