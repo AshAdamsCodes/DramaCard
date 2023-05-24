@@ -28,7 +28,7 @@ h1{
     justify-content: center;
     grid-gap: 5px;
     padding: 10px;
-    grid-template-columns: repeat(5 , 19%);
+    grid-template-columns: repeat(5 , 20%);
     grid-template-rows: repeat(6, 200px);
 
   }
@@ -37,11 +37,11 @@ h1{
     justify-content: center;
     align-items: center;
     display: grid;
-    
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     background: white;
     border: purple solid 5px; 
+    
   }
 
   .letter{
@@ -66,4 +66,9 @@ h1{
   button:hover{
     background-color: rgb(26, 75, 50);
     color: white;
+  }
+
+  .cell_logo img{
+    height: 150px; 
+    width: 150px; 
   }
